@@ -14,9 +14,8 @@ import com.how2java.pojo.Category;
 public class TestMybatis {
  
     public static void main(String[] args) throws IOException {
-       System.out.println("yys-----------");
-       System.out.println("yys-----------");
-       System.out.println("yys-----------");
+       System.out.println("yys1-----------");
+      
     	String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
